@@ -1,0 +1,15 @@
+project: common
+
+targets:
+  - SailfishOS-4.0.1.48-aarch64
+
+rpms: RPMS
+
+options:
+  - allow-vendor-change
+
+buildoptions: -j6
+
+macros:
+  - vendor meego
+  - sailfishos 4.0
